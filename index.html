@@ -26,7 +26,7 @@
     <section id="sobre">
         <h2>Sobre Mim</h2>
 
-        <img src="Fotos/sobremim.jpg"alt="Imagem Não Disponivel" title="Gato de botas"> 
+        <img src="Fotos/sobremim.jpg" alt="Imagem Não Disponivel" title="Gato de botas">
 
         <article>
             <p>Eu sou o Luiz sou engenheiro civil</p>
@@ -55,6 +55,7 @@
     </section>
 
     <section id="projeto">
+
         <h2>Projetos</h2>
 
         <img src="https://admin.archshop.com.br/uploads/thumb_o_que_e_uma_planta_baixa_freepik_0ffc0ef382.jpg"
@@ -63,14 +64,51 @@
         <article>
             <p>Uma planta baixa é um desenho técnico em escala, visto de cima, que representa o layout horizontal <br>
                 de uma construção, mostrando paredes, cômodos, portas, janelas e circulação. Fundamental na arquitetura,
-                <br>
-                ela facilita o planejamento de espaços, a disposição do mobiliário, a iluminação e a verificação da <br>
+                <br> ela facilita o planejamento de espaços, a disposição do mobiliário, a iluminação e a verificação da <br>
+                funcionalidade.
+            </p>
 
-                funcionalidade.</p>
         </article>
 
     </section>
+<section id="habilidades"> 
 
+    <h2>Habilidades e Tecnologias</h2>
+<table>
+<thead>
+    <tr>
+        <th>Tecnologia</th>
+         <th>Nivel</th>
+          <th>Descrição</th>
+    </tr>
+</thead>
+
+<tbody>
+
+<tr>
+<td>HTML</td>
+<td>Iniciante</td>
+<td>Capaz de construir estruturas de paginas web semanticas e responsivas.</td>
+</tr>
+
+<tr>
+<td>CSS</td>
+<td>Intermediario</td>
+<td>Experiencia em flexbox, grid e animações CSS.</td>
+</tr>
+
+<tr>
+<td>JavaScript</td>
+<td>Básico</td>
+<td>Desenvolvimento de scripts do lado do cliente para interações.</td>
+</tr>
+
+</tbody>
+
+
+</table>
+
+</section>
     <footer>
         <p>Direitos reservados a Luiz Carlos</p>
 
@@ -78,12 +116,39 @@
             <h2>Contato</h2>
 
             <p>Entre em contato para mais informações</p>
+            <form action="">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required> <br>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required> <br>
+
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone"> <br>
+
+                <label for="assunto">Assunto:</label>
+
+                <select name="assunto" id="assunto">
+                    <option value="orcamento">Orçamento</option>
+                    <option value="duvida">Duvida</option>
+                    <option value="outro">Outro</option>
+                </select><br>
+
+                <label for="mensagem">Mensagem:</label><br>
+                <textarea name="mensagem" id="mensagem" cols="30" rows="10" required></textarea><br>
+
+                <input type="checkbox" id="inscricao" name="inscricao">
+                <label for="inscricao">Deseja receber minha newsletter? Fique por dentro!</label><br>
+
+                <input type="submit" value="Enviar mensagem">
+
+            </form>
 
             <address>
                 email: <a href="mailto:">email@email.com</a><br>
                 Telefone: <a href="tel">9999999999</a>
             </address>
-        </section>  
+        </section>
     </footer>
 
 </body>
